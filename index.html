@@ -150,3 +150,232 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chandu GR Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    color:white;
+}
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* HERO SECTION */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:70px;
+    margin-bottom:20px;
+    color:#38bdf8;
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:30px;
+    color:#d1d5db;
+}
+
+.btn{
+    padding:15px 30px;
+    background:#38bdf8;
+    border:none;
+    border-radius:12px;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+    text-decoration:none;
+}
+
+.btn:hover{
+    background:#0ea5e9;
+    transform:scale(1.05);
+}
+
+/* PROJECTS */
+
+.projects{
+    padding:80px 10%;
+}
+
+.projects h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    transition:0.3s;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(56,189,248,0.5);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+
+.card p{
+    color:#d1d5db;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+    background:#020617;
+    color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">GRCTech</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Skills</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Welcome to Chandu GR Portfolio</h1>
+
+<p>
+Computer Science & Data Science Engineering Student
+Building AI tools, websites, games, and learning platforms.
+</p>
+
+<a href="#" class="btn">Explore Projects</a>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section class="projects">
+
+<h2>My Projects</h2>
+
+<div class="project-grid">
+
+<div class="card">
+<h3>Age Calculator</h3>
+<p>Modern AI-powered age calculator website.</p>
+</div>
+
+<div class="card">
+<h3>QR Generator</h3>
+<p>Generate QR codes instantly with modern UI.</p>
+</div>
+
+<div class="card">
+<h3>DASH Learning</h3>
+<p>Interactive AI learning platform for students.</p>
+</div>
+
+<div class="card">
+<h3>Fun Race 3D</h3>
+<p>3D interactive racing game with AI opponents.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Chandu GR | GRCTech Portfolio
+
+</footer>
+
+</body>
+</html>
